@@ -20,9 +20,20 @@ public class EnterPage extends DriverScript {
 	
 	@FindBy(xpath="//a[@class='userProfileLink username ']") WebElement usernameText;
 	@FindBy(id="logoutLink") WebElement logoutLink;
-
-	//page initialization
+    @FindBy(xpath="//a[@class='content selected tasks']") WebElement taskMenu; 
 	
+    
+    
+    
+    
+    //page initialization
+	
+    public void clickTaskMenu() 
+    {
+    	taskMenu.click();
+    }
+    
+    
 	public EnterPage()
 	{
 		PageFactory.initElements(driver, this);
