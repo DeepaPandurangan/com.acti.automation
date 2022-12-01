@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17714" started-at="2022-11-30T21:24:09Z" finished-at="2022-11-30T21:24:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17714" started-at="2022-11-30T21:24:09Z" finished-at="2022-11-30T21:24:27Z">
+      <class name="com.acti.testcase.LoginPagesTests">
+        <test-method status="PASS" signature="testLoginPageTitle()[pri:1, instance:com.acti.testcase.LoginPagesTests@7ea37dbf]" name="testLoginPageTitle" duration-ms="4322" started-at="2022-11-30T21:24:09Z" finished-at="2022-11-30T21:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method status="PASS" signature="testActiImageIsDisplayed()[pri:2, instance:com.acti.testcase.LoginPagesTests@7ea37dbf]" name="testActiImageIsDisplayed" duration-ms="3564" started-at="2022-11-30T21:24:14Z" finished-at="2022-11-30T21:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActiImageIsDisplayed -->
+        <test-method status="PASS" signature="testForgotpasswordIsDisplayed()[pri:3, instance:com.acti.testcase.LoginPagesTests@7ea37dbf]" name="testForgotpasswordIsDisplayed" duration-ms="3758" started-at="2022-11-30T21:24:17Z" finished-at="2022-11-30T21:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotpasswordIsDisplayed -->
+        <test-method status="PASS" signature="testLoginFunction()[pri:4, instance:com.acti.testcase.LoginPagesTests@7ea37dbf]" name="testLoginFunction" duration-ms="6024" started-at="2022-11-30T21:24:21Z" finished-at="2022-11-30T21:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunction -->
+      </class> <!-- com.acti.testcase.LoginPagesTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
