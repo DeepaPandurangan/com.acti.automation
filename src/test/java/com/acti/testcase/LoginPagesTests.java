@@ -12,7 +12,7 @@ import com.acti.pages.LoginPage;
 public class LoginPagesTests extends DriverScript{
 
 	
-@Test(priority=1)
+@Test
 public void testLoginPageTitle()
 {
 	initApplication();
@@ -22,7 +22,7 @@ public void testLoginPageTitle()
 	Assert.assertEquals(actual,expected);
 	quitDriver();
 }
-@Test(priority=2)
+@Test
 public void testActiImageIsDisplayed() 
 {
 	initApplication();
@@ -31,7 +31,7 @@ public void testActiImageIsDisplayed()
 	Assert.assertTrue(flag);
 	quitDriver();
 }
-@Test(priority=3)
+@Test
 public void testForgotpasswordIsDisplayed()
 {
 	initApplication();
@@ -40,7 +40,7 @@ public void testForgotpasswordIsDisplayed()
 	 Assert.assertTrue(flag);
 	 quitDriver();
 }
-@Test(priority=4)
+@Test
 public void testLoginFunction()
 {
 	initApplication();
