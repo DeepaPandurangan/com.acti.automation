@@ -3,7 +3,6 @@ package com.acti.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.acti.base.DriverScript;
 
 /*
@@ -17,11 +16,12 @@ import com.acti.base.DriverScript;
        public class TaskPage extends DriverScript{
 
 	//page elements
+    	 
 	 @FindBy(xpath="//div[text()='Add New']") WebElement addNewButton;
 	 @FindBy(xpath="//div[text()='+ New Customer']") WebElement newCustomerItem;	
 	 @FindBy(xpath="(//input[@placeholder='Enter Customer Name'])[2]") WebElement customernameTextBox;
 	 @FindBy(xpath="//textarea[@placeholder='Enter Customer Description']") WebElement customerdescriptionTextarea;
-	 @FindBy(xpath="(//div[text()='Create Customer'])[6]") WebElement createcustomerButton;
+	 @FindBy(xpath="//div[text()='Create Customer']") WebElement createcustomerButton;
 	 @FindBy(xpath="//span[@class='innerHtml']") WebElement successMessage;
 	  
 	 

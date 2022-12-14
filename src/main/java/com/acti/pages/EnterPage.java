@@ -3,7 +3,6 @@ package com.acti.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.acti.base.DriverScript;
 
 /*
@@ -20,7 +19,8 @@ public class EnterPage extends DriverScript {
 	
 	@FindBy(xpath="//a[@class='userProfileLink username ']") WebElement usernameText;
 	@FindBy(id="logoutLink") WebElement logoutLink;
-    @FindBy(xpath="//a[@class='content selected tasks']") WebElement taskMenu; 
+	@FindBy(xpath="//a[@class='content tasks']")WebElement taskMenu;
+	
 	
     
     
@@ -32,7 +32,6 @@ public class EnterPage extends DriverScript {
     {
     	taskMenu.click();
     }
-    
     
 	public EnterPage()
 	{
